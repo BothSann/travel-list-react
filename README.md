@@ -11,6 +11,11 @@ A simple and intuitive React application to help you manage your travel packing 
 - 🔄 Sort items by input order, description, or packed status
 - 🧹 Clear entire list when needed
 
+## 📸 Screenshot
+
+![Travel List React App Interface](./public/screenshot.JPG)
+_A clean and user-friendly interface for managing your travel items_
+
 ## 🚀 Getting Started
 
 ### 📋 Prerequisites
