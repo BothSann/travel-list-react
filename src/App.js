@@ -27,7 +27,12 @@ export default function App() {
   }
 
   function handleClearItems() {
-    setItems([]);
+    if (!items.length) return;
+
+    const confirmed = window.confirm(
+      "Are you sure you want to delete all items?"
+    );
+    if (confirmed) setItems([]);
   }
 
   return (
